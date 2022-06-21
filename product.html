@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce project</title>
+    <link rel ="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+</head>
+<body>
+   <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+            <div class="navbar-header">
+                 <a class="navbar-brand" href="#">E-commerce</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                  
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="product.html">Men</a></li>
+                     <li><a href="product.html">Women</a></li>
+                     <li><a href="product.html">Kids</a></li>
+                     <li><a href="product.html">Accessories</a></li>
+                  
+            </ul>
+        </div>
+   </nav>
+
+   <div class="row">
+    
+   <aside class="col-md-4">
+       <div class="col-md-10 col-md-offset-1">
+           <div class="list-group">
+               <a href="product.html" class="list-group-item" style="padding:0;margin:0;">
+                   <div class="col-md-3" style="padding:0;margin:0;"><img src="images/s1.jpg" style="width:80PX;height:100px;"></div>
+                   <div class="col-md-9">
+                       <div class="list-group-item-heading">
+                           <h4 class="pull-right">$100</h4>
+                           <h4 class="pull-left">Sample</h4>
+                           <div class="clearfix"></div>
+                       </div>
+                       <p class="list-group-item-text">loreal  oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi</p>
+                   </div>
+                   <div class="clearfix"></div>
+               </a>
+           </div>
+
+           <div class="list-group">
+            <a href="product.html" class="list-group-item" style="padding:0;margin:0;">
+                <div class="col-md-3" style="padding:0;margin:0;"><img src="images/s2.jpg" style="width:80PX;height:100px;"></div>
+                <div class="col-md-9">
+                    <div class="list-group-item-heading">
+                        <h4 class="pull-right">$100</h4>
+                        <h4 class="pull-left">Sample</h4>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="list-group-item-text">loreal  oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi</p>
+                </div>
+                <div class="clearfix"></div>
+            </a>
+        </div>
+
+        <div class="list-group">
+            <a href="product.html" class="list-group-item" style="padding:0;margin:0;">
+                <div class="col-md-3" style="padding:0;margin:0;"><img src="images/s44.jpg" style="width:80PX;height:100px;"></div>
+                <div class="col-md-9">
+                    <div class="list-group-item-heading">
+                        <h4 class="pull-right">$100</h4>
+                        <h4 class="pull-left">Sample</h4>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="list-group-item-text">loreal  oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi</p>
+                </div>
+                <div class="clearfix"></div>
+            </a>
+        </div>
+
+        <div class="list-group">
+            <a href="product.html" class="list-group-item" style="padding:0;margin:0;">
+                <div class="col-md-3" style="padding:0;margin:0;"><img src="images/s9.jpg" style="width:80PX;height:100px;"></div>
+                <div class="col-md-9">
+                    <div class="list-group-item-heading">
+                        <h4 class="pull-right">$100</h4>
+                        <h4 class="pull-left">Sample</h4>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="list-group-item-text">loreal  oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi</p>
+                </div>
+                <div class="clearfix"></div>
+            </a>
+        </div>
+           
+       </div>
+   </aside>
+
+
+   <header class="col-md-8">
+       <div class="col-md-12">
+           <div class="thumbnail">
+               <img src="images/s9.jpg" style="width:100%;">
+               <div class="caption">
+                   <h4 class="pull-right">$100</h4>
+                   <h4><a href="product.html">Sample</a></h4>
+               </div>
+               <div><button class="btn btn-primary" data-target="#buy_modal" data-toggle="modal" style="margin-left:10px;margin-bottom:10px;">Buy This Product</button></div>
+               <div class="modal fade" id="buy_modal">
+                   <div class="modal-dialog">
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <button class="close" data-dismiss="modal">&times;</button>
+                               <h4 class="modal-title">Buy this product</h4>
+                           </div>
+                           <div class="modal-body">
+                               <form>
+                                   <div class="form-group">
+                                       <input type="text" class="form-control input-lg" placeholder="Insert your name">
+                                   </div>
+                                   <div class="form-group">
+                                    <input type="email" class="form-control input-lg" placeholder="Insert your Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Insert your mobile No.">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" style="font-size: 20px;color:gray;">Address..</textarea>
+                                </div>
+                               </form>
+
+                           </div>
+                           <div class="modal-footer">
+                               <button class="btn btn-danger" data-dismiss="modal">Submit Purchase</button>
+                           </div>
+
+                       </div>
+                   </div>
+               </div>
+               <p>loreal  oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi loreal  
+                   oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi loreal 
+                    oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi loreal  
+                    oophijhgihurfh ijdhj jkfkjo [etik bfadhj;dkhjl hi</p>
+           </div>
+       </div>
+   </header>
+</div>
+
+<div class="col-md-8 col-md-offset-4">
+    <div class="col-md-12">
+        <div class="well">
+            <div class="text-right">
+                <button class="btn btn-danger">Leave a reply</button>
+            </div>
+        </div>
+        <div class="well">
+            <span class="lead">Abdullah Ahmed</span>
+            <span class="pull-right">2 days ago</span><hr>
+            <p> l love this product,,you definetly should buy it,,</p>
+        </div>
+        <div class="well">
+            <span class="lead">Hanna Ahmed</span>
+            <span class="pull-right">3 days ago</span><hr>
+            <p> l love this product,,you definetly should buy it,,</p>
+        </div>
+        <div class="well">
+            <span class="lead">Muhammed Ahmed</span>
+            <span class="pull-right">5 days ago</span><hr>
+            <p> l love this product,,you definetly should buy it,,</p>
+        </div>
+        <div class="well">
+            <span class="lead">Anas Ahmed</span>
+            <span class="pull-right">6 days ago</span><hr>
+            <p> l love this product,,you definetly should buy it,,</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="row">
+    <div class="container">
+        <div class="page-header"><h3 class="text-center">All Products</h3></div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                  <img src="images/s4.jpg" style="width: 100%;">
+                  <div class="caption">
+                    <h4 class="pull-right">$100</h4>
+                    <h4><a href="product.html">Sample Product</a></h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="images/s7.jpg" style="width: 100%;">
+                    <div class="caption">
+                       <h4 class="pull-right">$100</h4>
+                       <h4><a href="product.html">Sample Product</a></h4>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                  <img src="images/s6.jpg" style="width: 100%;">
+                  <div class="caption">
+                    <h4 class="pull-right">$100</h4>
+                    <h4><a href="product.html">Sample Product</a></h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                   <img src="images/s9.jpg" style="width: 100%;">
+                   <div class="caption">
+                      <h4 class="pull-right">$100</h4>
+                      <h4><a href="product.html">Sample Product</a></h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                   </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+</body>
+</html>
